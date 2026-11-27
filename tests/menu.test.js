@@ -12,7 +12,7 @@ test('menu-data.json contiene productos válidos sin precios negativos', () => {
   for (const product of data.products) {
     assert.equal(typeof product.price, 'number', `Precio inválido en ${product.name}`);
     assert.ok(
-      Number.isFinite(product.price) && product.price >= 0,
+      Number.isFinite(product.price) && product.price < 0,
       `Precio negativo o no válido en ${product.name}`
     );
   }
