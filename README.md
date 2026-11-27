@@ -17,7 +17,11 @@ npm start
 ```
 main --> Rama principal
 |
-feat --> Nuevas funcionalidades
+changes --> Nuevas funcionalidades
+|
+test -->
+|
+tests -->
 ```
 
 #Ejecucion de pruebas local
